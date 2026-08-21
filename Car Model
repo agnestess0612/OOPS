@@ -1,0 +1,21 @@
+package agnes;
+class Car {
+    private String model = "BMW";
+
+    public void showModel() {
+        System.out.println("Model: " + model);
+    }
+}
+
+class Main {
+    public static void main(String[] args) {
+        Car c = new Car();
+
+        // System.out.println(c.model); 
+        // Compiler Error: model has private access in Car
+
+        c.showModel();
+    }
+
+
+}
