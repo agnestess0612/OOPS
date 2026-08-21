@@ -1,0 +1,12 @@
+package agnes;
+class Animal {
+    String species = "Dog";
+}
+class Main2 {
+	public static void main(String[] args) {
+        Animal a = new Animal();
+
+        System.out.println(a.species);
+    }
+}
+
